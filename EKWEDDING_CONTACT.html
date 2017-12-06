@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EK WEDDING STUDIO</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="wedding.css">
+    <link rel="stylesheet" href="wedding5.css">
+    <link href="ekwedding.html">
+    <link href="About">
+    <link href="Service">
+    <link href="Portfolio">
+    <link href="Contact">
+</head>
+
+<body>
+    <div class="opaqueLayer">
+    </div>
+    <div id="wrapper">
+        <div class="logo">
+        </div>
+        <div id="header">
+            <ul>
+                <div class="menuAlign">
+                    <li><a href="EKWEDDING.html">HOME</a></li>
+                    <li><a href="EKWEDDING_ABOUT%20US.html">ABOUT</a></li>
+                    <li><a href="EKWEDDING_SERVICE.html">SERVICES</a></li>
+                    <li><a href="EKWEDDING_PORTFOLIO1.html">PORTFOLIO</a></li>
+                    <li><a class="active" href="EKWEDDING_CONTACT.html">CONTACT</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="about">
+            Contact Us
+        </div>
+        <div class="wrap">
+            <div class="box">
+                <div id="map" class="column">
+                </div>
+                <div class="contactUsleft column">
+                    <div class="context">
+                        <br/>
+                        <div class="text"><i>We would love to hear from You!</i></div>
+                        <br/>
+                        <br/>
+                        <div class="text">778.839.9405 | info@ekwedding.com</div>
+                        <br/>
+                        <br/>
+                        <div class="text">3700 Willingdon Ave, Burnaby, BC V5G3H2 <br/> by appointments only.</div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="instagram"></div>
+                        <div class="facebook"></div>
+                        <div class="pinterest"></div>
+                        <div class="envelope"></div>
+                        <div class="snapchat"></div>
+                    </div>
+                </div>
+                <div class="info column">
+                    <div class="contactinfo">
+                        <div class="text">NAME</div>
+                    </div>
+                    <br/>
+                    <div class="bar">
+                        <div class="Information">Ella</div>
+                    </div>
+                    <div class="contactinfo"><br/>
+                        <div class="text">EMAIL</div>
+                    </div>
+                    <br/><br/>
+                    <div class="bar">
+                        <div class="Information">ellayjkoo@gmail.com</div>
+                    </div>
+                    <div class="contactinfo"><br/>
+                        <div class="text">MESSAGE</div>
+                    </div>
+                    <br/><br/>
+                    <div class="messagebar">
+                        <div class="Information">Hi!</div>
+                    </div>
+                    <br/>
+                    <div href="button" id="submitButton">SUBMIT</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <ul>
+                    <div class="footerMenu"></div>
+                    <div class="footerMenuAlign">
+                        <li><a href="#terms">TERMS</a></li>
+                        <li><a href="careers">CAREERS</a></li>
+                        <li><a href="privacy policy">PRIVACY POLICY</a></li>
+                        <li><a href="contact us">FAQ</a></li>
+                    </div>
+                </ul>
+            </div>
+        </footer>
+        <div id="icons">
+            <div class="instagram"></div>
+            <div class="facebook"></div>
+            <div class="pinterest"></div>
+            <div class="envelope"></div>
+            <div class="snapchat"></div>
+        </div>
+    </div>
+</body>
+<script async defer 
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtf8BTae0eVhVWa7wkDBS47Wyk10lyCG8&callback=initMap">
+</script>
+<script>
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 5,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+</script>
+
+</html>

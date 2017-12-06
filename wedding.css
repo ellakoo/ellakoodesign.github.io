@@ -1,0 +1,168 @@
+body {
+    background-image: url(sunflowerwedding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    background-image: url(WeddingFinal.png);
+    width: 180px;
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#header ul {
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    font-family: "Bodoni 72";
+    background-color: #B5838D;
+    font-size: 13px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    overflow:hidden;
+}
+
+#header li {
+/*    border-right: 1px solid white;*/
+    float:left;
+    padding: 0px;
+    margin: 0px;
+    height: 25px;
+}
+#header li a {
+    display:  block;
+    text-decoration: none;
+}
+.menuLeft {
+    border-left: 0px;
+}
+.menuRight{
+    border-right: 0px;
+}
+#footercontainer li {
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E5C1BD;
+}
+
+.active {
+    background-color: #E5C1BD;
+}
+
+#footercontainer ul {
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    font-family: "Bodoni 72";
+    font-size: 13px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 50px;
+    
+}
+
+.footerMenu {
+    background-color: #A1B181;
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#icons {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+.instagram {
+    background-image: url(insta.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.facebook {
+    background-image: url(facebook-logo.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.pinterest {
+    background-image: url(pinterest-sign.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.envelope {
+    background-image: url(envelope.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.snapchat {
+    background-image: url(snap.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: inline-block;
+}
+.opaqueLayer {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: white;
+    opacity: 0.4;
+    z-index: -1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.menuAlign {
+    width:420px;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+.footerMenuAlign {
+    width:350px;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;    
+}
